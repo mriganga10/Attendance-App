@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/we"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(Long Click to get menu)"
+        android:gravity="center_horizontal"
+        android:layout_margin="8dp"/>
+
+    <ListView
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/we"
+        android:id="@+id/listofstudents"
+        android:layout_margin="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/holo_green_light"
+        android:dividerHeight="1px"/>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/addStudentss"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        app:backgroundTint="@color/colorPrimary"
+        android:src="@drawable/ic_add_circle_black_24dp"/>
+</RelativeLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for the editor -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+    tools:context=".StudentsOfABatch.AddNewStudent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="* = Required fields"
+            android:gravity="end"
+            style="@style/CategoryStyle" />
+    </LinearLayout>
+
+    <!-- Student category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="Scholar ID*"
+            style="@style/CategoryStyle" />
+        <!-- Name field -->
+        <EditText
+            android:id="@+id/edit_scholar_ID"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:hint="15-1-5-001"
+            android:inputType="textCapWords"
+            style="@style/EditorFieldStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="Name*"
+            style="@style/CategoryStyle" />
+        <!-- Name field -->
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:hint="Pankaj Kapoor"
+            android:inputType="textCapWords"
+            style="@style/EditorFieldStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="Contact No.*"
+            style="@style/CategoryStyle" />
+        <!-- Name field -->
+        <EditText
+            android:id="@+id/edit_contact"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:hint="9876543210"
+            android:inputType="phone"
+            style="@style/EditorFieldStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="Email_ID*"
+            style="@style/CategoryStyle" />
+        <!-- Name field -->
+        <EditText
+            android:id="@+id/edit_emailID"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:hint="pankajkp@gmail.com"
+            android:inputType="textEmailAddress"
+            style="@style/EditorFieldStyle" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="MidSem Marks"
+            style="@style/CategoryStyle" />
+        <!-- Name field -->
+        <EditText
+            android:id="@+id/edit_midSem"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:hint="20"
+            android:inputType="numberDecimal"
+            style="@style/EditorFieldStyle" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="EndSem Marks"
+            style="@style/CategoryStyle" />
+        <!-- Name field -->
+        <EditText
+            android:id="@+id/edit_endSem"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:hint="45"
+            android:inputType="numberDecimal"
+            style="@style/EditorFieldStyle" />
+    </LinearLayout>
+
+
+</LinearLayout>

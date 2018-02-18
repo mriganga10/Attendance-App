@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://C:\Users\Mriganga\Desktop\Android_Attendance_System-master\Android_Attendance_System.iml" filepath="C:\Users\Mriganga\Desktop\Android_Attendance_System-master\Android_Attendance_System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android_Attendance_System-master.iml" filepath="$PROJECT_DIR$/Android_Attendance_System-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <item android:id="@+id/update_student"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:title="Update Student" />
+    <item android:id="@+id/delete_student"
+        android:icon="@drawable/ic_delete_black_24dp"
+        app:showAsAction="collapseActionView"
+        android:orderInCategory="100"
+        android:title="Delete Student" />
+</menu>
